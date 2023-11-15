@@ -19,6 +19,7 @@ Scripts `1.sh` & `2.sh` should be run one after another, with a log out/in inbet
 +github cli
 +htop
 +neovim
++jetbrains mono
 +discord
 +extension manager
 +spotify
@@ -50,5 +51,6 @@ Just Perfection and Transparent Top Bar have custom settings applied.
 ## Miscellaneous Customizations
 - Change favorited apps in dash
 - Set Gnome to dark mode
+- Set Black Box font to JetBrains Mono 10
 ## Notes
 - Gnome extension "Rounded Window Corners" is packaged in this repo for now, as the Gnome 45 version has not been published on the Gnome Extension Store yet.
