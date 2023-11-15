@@ -20,6 +20,7 @@ Scripts `1.sh` & `2.sh` should be run one after another, with a log out/in inbet
 +htop
 +neovim
 +jetbrains mono
++steam
 +discord
 +extension manager
 +spotify
