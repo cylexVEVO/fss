@@ -34,6 +34,9 @@ sudo dnf remove gnome-terminal firefox mediawriter gnome-contacts gnome-maps lib
 # change pinned apps in dash
 dconf write /org/gnome/shell/favorite-apps "['google-chrome.desktop', 'com.discordapp.Discord.desktop', 'org.telegram.desktop.desktop', 'org.gnome.Nautilus.desktop', 'com.raggesilver.BlackBox.desktop', 'code.desktop', 'com.spotify.Client.desktop']"
 
+# gnome dark mode
+gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
+
 # gnome extensions
 curl --proto '=https' --tlsv1.2 -sSf https://extensions.gnome.org/extension-data/appindicatorsupportrgcjonas.gmail.com.v57.shell-extension.zip -o ext1.zip
 curl --proto '=https' --tlsv1.2 -sSf https://extensions.gnome.org/extension-data/just-perfection-desktopjust-perfection.v27.shell-extension.zip -o ext2.zip
