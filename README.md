@@ -51,5 +51,6 @@ Just Perfection and Transparent Top Bar have custom settings applied.
 - Change favorited apps in dash
 - Set Gnome to dark mode
 - Set Black Box font to JetBrains Mono 10
+- Install [Firefox Gnome theme](https://github.com/rafaelmardojai/firefox-gnome-theme)
 ## Notes
 - Gnome extension "Rounded Window Corners" is packaged in this repo for now, as the Gnome 45 version has not been published on the Gnome Extension Store yet.
