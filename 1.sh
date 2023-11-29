@@ -26,10 +26,10 @@ rm 1password-latest.rpm
 curl --proto '=https' --tlsv1.2 -sSf "https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64" -o code.rpm
 sudo dnf install code.rpm -y
 rm code.rpm
-sudo dnf install google-chrome-stable blackbox-terminal gh htop neovim jetbrains-mono-fonts steam -y
+sudo dnf install blackbox-terminal gh htop neovim jetbrains-mono-fonts steam -y
 flatpak install com.discordapp.Discord com.mattjakeman.ExtensionManager com.spotify.Client io.bassi.Amberol io.missioncenter.MissionCenter net.lutris.Lutris org.telegram.desktop -y
 
-sudo dnf remove gnome-terminal firefox mediawriter gnome-contacts gnome-maps libreoffice-calc libreoffice-writer libreoffice-impress libreoffice-core rhythmbox simple-scan gnome-system-monitor gnome-tour gnome-connections cheese -y
+sudo dnf remove gnome-terminal mediawriter gnome-contacts gnome-maps libreoffice-calc libreoffice-writer libreoffice-impress libreoffice-core rhythmbox simple-scan gnome-system-monitor gnome-tour gnome-connections cheese -y
 
 # change pinned apps in dash
 dconf write /org/gnome/shell/favorite-apps "['google-chrome.desktop', 'com.discordapp.Discord.desktop', 'org.telegram.desktop.desktop', 'org.gnome.Nautilus.desktop', 'com.raggesilver.BlackBox.desktop', 'code.desktop', 'com.spotify.Client.desktop']"

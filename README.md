@@ -14,7 +14,6 @@ Scripts `1.sh` & `2.sh` should be run one after another, with a log out/in inbet
 +proprietary nvidia driver
 +1password
 +vscode
-+google chrome
 +blackbox terminal
 +github cli
 +htop
@@ -29,7 +28,6 @@ Scripts `1.sh` & `2.sh` should be run one after another, with a log out/in inbet
 +lutris
 +telegram
 -gnome terminal
--firefox
 -fedora media writer
 -gnome contacts
 -gnome maps
