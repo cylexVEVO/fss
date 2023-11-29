@@ -52,5 +52,6 @@ Just Perfection and Transparent Top Bar have custom settings applied.
 - Set Gnome to dark mode
 - Set Black Box font to JetBrains Mono 10
 - Install [Firefox Gnome theme](https://github.com/rafaelmardojai/firefox-gnome-theme)
+- Install [Gtk3 Adwaita theme](https://github.com/lassekongo83/adw-gtk3)
 ## Notes
 - Gnome extension "Rounded Window Corners" is packaged in this repo for now, as the Gnome 45 version has not been published on the Gnome Extension Store yet.

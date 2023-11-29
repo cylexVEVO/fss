@@ -43,6 +43,11 @@ gsettings set com.raggesilver.BlackBox font "JetBrains Mono 10"
 # firefox gnome theme
 curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
 
+# gtk3 adwaita theme
+flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+sudo dnf install adw-gtk3-theme -y
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark'
+
 # gnome extensions
 curl --proto '=https' --tlsv1.2 -sSf https://extensions.gnome.org/extension-data/appindicatorsupportrgcjonas.gmail.com.v57.shell-extension.zip -o ext1.zip
 curl --proto '=https' --tlsv1.2 -sSf https://extensions.gnome.org/extension-data/just-perfection-desktopjust-perfection.v27.shell-extension.zip -o ext2.zip
