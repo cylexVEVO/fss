@@ -49,6 +49,7 @@ Scripts `1.sh` & `2.sh` should be run one after another, with a log out/in inbet
 Just Perfection and Transparent Top Bar have custom settings applied.
 ## Miscellaneous Customizations
 - Change favorited apps in dash
+- Custom icons for apps in dash
 - Set Gnome to dark mode
 - Set Black Box font to JetBrains Mono 10
 - Install [Firefox Gnome theme](https://github.com/rafaelmardojai/firefox-gnome-theme)
