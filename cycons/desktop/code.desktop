@@ -1,0 +1,31 @@
+[Desktop Entry]
+Name=Visual Studio Code
+Comment=Code Editing. Redefined.
+GenericName=Text Editor
+Exec=/usr/share/code/code --unity-launch %F
+Icon=/usr/share/cycons/vscode.png
+Type=Application
+StartupNotify=false
+StartupWMClass=Code
+Categories=TextEditor;Development;IDE;
+MimeType=text/plain;inode/directory;application/x-code-workspace;
+Actions=new-empty-window
+Keywords=vscode;
+Name[en]=Visual Studio Code
+Name[en_US]=Visual Studio Code
+Name[en_US.UTF-8]=Visual Studio Code
+Comment[en]=Code Editing. Redefined.
+Comment[en_US]=Code Editing. Redefined.
+Comment[en_US.UTF-8]=Code Editing. Redefined.
+Hidden=false
+NoDisplay=false
+Terminal=false
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/usr/share/code/code --new-window %F
+Icon=vscode
+Name[en]=New Empty Window
+Name[en_US]=New Empty Window
+Name[en_US.UTF-8]=New Empty Window
+

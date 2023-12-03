@@ -14,3 +14,8 @@ dconf write /org/gnome/shell/extensions/just-perfection/switcher-popup-delay "fa
 dconf write /org/gnome/shell/extensions/just-perfection/window-preview-caption "false"
 dconf write /org/gnome/shell/extensions/just-perfection/window-preview-close-button "false"
 dconf write /org/gnome/shell/extensions/just-perfection/window-demands-attention-focus "true"
+
+# cycons
+sudo mkdir /usr/share/cycons
+sudo cp ./cycons/cycons/* /usr/share/cycons
+sudo cp ./cycons/desktop/* ~/.local/share/applications

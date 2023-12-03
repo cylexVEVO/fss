@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Application
+Name=Spotify
+GenericName=Online music streaming service
+Comment=Access all of your favorite music
+Icon=/usr/share/cycons/spotify.png
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=spotify --file-forwarding com.spotify.Client @@u %U @@
+Terminal=false
+MimeType=x-scheme-handler/spotify;
+Categories=Audio;Music;AudioVideo;
+Keywords=Music;Player;Streaming;Online;
+StartupWMClass=Spotify
+X-GNOME-UsesNotifications=true
+X-Flatpak-Tags=proprietary;
+X-Flatpak=com.spotify.Client
+Name[en]=Spotify
+Name[en_US]=Spotify
+Name[en_US.UTF-8]=Spotify
+Comment[en]=Access all of your favorite music
+Comment[en_US]=Access all of your favorite music
+Comment[en_US.UTF-8]=Access all of your favorite music
+Hidden=false
+NoDisplay=false
+StartupNotify=false
+
