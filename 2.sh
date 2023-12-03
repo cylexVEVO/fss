@@ -12,7 +12,6 @@ dconf write /com/ftpix/transparentbar/transparency 0
 dconf write /org/gnome/shell/extensions/just-perfection/show-apps-button "false"
 dconf write /org/gnome/shell/extensions/just-perfection/switcher-popup-delay "false"
 dconf write /org/gnome/shell/extensions/just-perfection/window-preview-caption "false"
-dconf write /org/gnome/shell/extensions/just-perfection/window-preview-close-button "false"
 dconf write /org/gnome/shell/extensions/just-perfection/window-demands-attention-focus "true"
 
 # cycons
